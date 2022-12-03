@@ -7,6 +7,7 @@ public class main {
 
         int wagePerHour = 20;
         int fullDayHour = 8;
+        int forMonth = 20;
         System.out.println("welcome to employee wage");
         //Random class
         Random random = new Random();
@@ -31,7 +32,9 @@ public class main {
                 fullDayHour = 4;
         }
         int dailyWage = wagePerHour * fullDayHour;
+        forMonth = forMonth*dailyWage;
         System.out.println("Daily wage of the employe is:" + dailyWage);
+        System.out.println("Monthly wage of the employe is:" + forMonth);
 
     }
 }
